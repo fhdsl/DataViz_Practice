@@ -1,14 +1,14 @@
-# {Course Name}
+# Cancer Informatics Data Visualization in Practice
 
 This course was created from [this GitHub template](https://github.com/jhudsl/OTTR_Template).
 
-You can see the rendered course material here: {Link to rendered bookdown and/or to the Leanpub.}
+You can see the rendered course material here: https://hutchdatascience.org/DataViz_Practice/
 
 If you would like to contribute to this course material, take a look at the [OTTR documentation](https://www.ottrproject.org/).
 
 ## About this course
 
-This course introduces {info on what this course introduces}
+This ITN course focuses on practicing best practices in data visualization by discussing common graph types used within Cancer Informatics, building graphs (while employing best practices), showcasing ITCR tools that are helpful for data visualization of cancer research data, and providing additional resources for further visualization practice.
 
 ## Learning Objectives
 
