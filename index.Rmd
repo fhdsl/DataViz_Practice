@@ -1,12 +1,12 @@
 ---
-title: "Informatics Technology for Cancer Research (ITCR): Course Name "
+title: "Informatics Technology for Cancer Research (ITCR): Cancer Informatics Data Visualization in Practice"
 date: "`r format(Sys.time(), '%B, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "Description about Course/Book."
+description: "This ITN course focuses on practicing best practices in data visualization, specifically for cancer informatics data and research questions, by discussing common graph types used within Cancer Informatics, building graphs (while employing best practices), and showcasing ITCR tools that are helpful for data visualization of cancer research data."
 favicon: assets/ITN_favicon.ico
 ---
 
@@ -21,3 +21,9 @@ knitr::write_bib(c(
 # About this Course {-}
 
 This course is part of a series of courses for the [Informatics Technology for Cancer Research (ITCR)](https://itcr.cancer.gov/) called the Informatics Technology for Cancer Research Education Resource. This material was created by the ITCR Training Network (ITN)  which is a collaborative effort of researchers around the United States to support cancer informatics and data science training through resources, technology, and events. This initiative is funded by the following grant:  [National Cancer Institute (NCI)](https://www.cancer.gov/)  UE5 CA254170. Our courses feature tools developed by ITCR Investigators and make it easier for principal investigators, scientists, and analysts to integrate cancer informatics into their workflows. Please see our website at [www.itcrtraining.org](www.itcrtraining.org) for more information.
+
+Cancer Informatics Data Visualization in Practice is the second in a series of two courses on data visualization. This course focuses on using the best practice considerations discussed in the first course, specifically within context of Cancer Informatics Research. This course accomplishes this by discussing topics such as
+ - common visualizations for cancer informatics research questions
+ - pointing to resources for data visualization tools (R, Python, ITCR-funded, etc.)
+ - practicing building graphs while integrating best practices
+ - pointing to resources for additional practice

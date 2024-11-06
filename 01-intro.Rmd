@@ -5,18 +5,24 @@ ottrpal::set_knitr_image_path()
 
 # Introduction
 
-
-## Motivation
-
+This course is meant as a follow up to the ITCR course "Considerations for Bioinformatic Data Visualization", employing best practices while constructing data visualizations (both guided and a self-guided project) and interpreting the conclusions presented in the visualizations.
 
 ## Target Audience  
 
-The course is intended for ...
+The course is intended for cancer researchers with experience using basic informatics tools and who have an interest in data visualization.
+
+## Motivation
+
+Due to the frequent use of automated algorithms to collect and process data as well as the large size of datasets, it is critical to look at collected data and produce effective summaries. Data visualization is useful for exploration, exposition, and validation of research, aiding in the understanding of underlying biology in data sets, debugging errors in informatics workflows, and identifying/avoiding sources of bias. This course is designed to guide learners through constructing effective and accessible visualizations and point to additional practice and documentation resources.
 
 ## Curriculum  
 
-The course covers...
+The course covers using data visualization tools to construct effective and accessible data visualizations.  
 
+
+```{r out.width=100%, echo=FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1cbxc79tKxbH7PZJC18IQcfOfZALNwwVs7WtiiPxD6gU/edit#slide=id.g3015fd53a67_0_22")
+```
 
 ```{r}
 devtools::session_info()
