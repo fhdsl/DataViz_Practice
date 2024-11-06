@@ -23,6 +23,7 @@ knitr::write_bib(c(
 This course is part of a series of courses for the [Informatics Technology for Cancer Research (ITCR)](https://www.cancer.gov/about-nci/organization/cssi/research/itcr). This material was created by the ITCR Training Network (ITN)  which is a collaborative effort of researchers around the United States to support cancer informatics and data science training through resources, technology, and events. This initiative is funded by the following grant:  [National Cancer Institute (NCI)](https://www.cancer.gov/)  UE5 CA254170. Our courses feature tools developed by ITCR Investigators and make it easier for principal investigators, scientists, and analysts to integrate cancer informatics into their workflows. Please see our website at [www.itcrtraining.org](www.itcrtraining.org) for more information.
 
 Cancer Informatics Data Visualization in Practice is the second in a series of two courses on data visualization. This course focuses on using the best practice considerations discussed in the first course, specifically within context of Cancer Informatics Research. This course accomplishes this by discussing topics such as
+
  - common visualizations for cancer informatics research questions
  - pointing to resources for data visualization tools (R, Python, ITCR-funded, etc.)
  - practicing building graphs while integrating best practices
