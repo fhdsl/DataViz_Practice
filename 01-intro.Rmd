@@ -20,7 +20,7 @@ Due to the frequent use of automated algorithms to collect and process data as w
 The course covers using data visualization tools to construct effective and accessible data visualizations.  
 
 
-```{r out.width=100%, echo=FALSE}
+```{r out.width = "100%", echo = FALSE}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1cbxc79tKxbH7PZJC18IQcfOfZALNwwVs7WtiiPxD6gU/edit#slide=id.g3015fd53a67_0_22")
 ```
 
