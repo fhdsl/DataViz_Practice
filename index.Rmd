@@ -1,26 +1,35 @@
 ---
-title: "Course Name"
+title: "Cancer Informatics Data Visualization in Practice"
 date: "`r format(Sys.time(), '%B, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib]
+bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "Description about Course/Book."
-favicon: assets/dasl_favicon.ico
-output:
-    bookdown::word_document2:
-      toc: true
+description: "This ITN course focuses on practicing best practices in data visualization, specifically for cancer informatics data and research questions, by discussing common graph types used within Cancer Informatics, building graphs (while employing best practices), and showcasing ITCR tools that are helpful for data visualization of cancer research data."
+favicon: assets/ITN_favicon.ico
 ---
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), "bookdown", "knitr", "rmarkdown"
+), "packages.bib")
+```
 
 # About this Course {-}
 
+This course is part of a series of courses for the [Informatics Technology for Cancer Research (ITCR)](https://www.cancer.gov/about-nci/organization/cssi/research/itcr). This material was created by the ITCR Training Network (ITN)  which is a collaborative effort of researchers around the United States to support cancer informatics and data science training through resources, technology, and events. This initiative is funded by the following grant:  [National Cancer Institute (NCI)](https://www.cancer.gov/)  UE5 CA254170. Our courses feature tools developed by ITCR Investigators and make it easier for principal investigators, scientists, and analysts to integrate cancer informatics into their workflows. Please see our website at [www.itcrtraining.org](www.itcrtraining.org) for more information.
 
-## Available course formats
+Cancer Informatics Data Visualization in Practice is the second in a series of two courses on data visualization. This course focuses on using the best practice considerations discussed in the first course, specifically within context of Cancer Informatics Research. This course accomplishes this by discussing topics such as
 
-This course is available in multiple formats which allows you to take it in the way that best suites your needs. You can take it for certificate which can be for free or fee.
+ - common visualizations for cancer informatics research questions
+ - pointing to resources for data visualization tools (R, Python, ITCR-funded, etc.)
+ - practicing building graphs while integrating best practices
+ - pointing to resources for additional practice
 
-- The material for this course can be viewed without login requirement on this [Bookdown website](LINK HERE). This format might be most appropriate for you if you rely on screen-reader technology.
-- This course can be taken for [free certification through Leanpub](LINK HERE).
-- This course can be taken on [Coursera for certification here](LINK HERE) (but it is not available for free on Coursera).
-- Our courses are open source, you can find the [source material for this course on GitHub](LINK HERE).
+## Available Course Formats
+
+ - The material for this course can be viewed without login requirement on this [Bookdown website](https://hutchdatascience.org/DataViz_Practice/). This format might be most appropriate for you if you rely on screen-reader technology.
+ - Our courses are open source, you can find the [source material for this course on GitHub](https://github.com/fhdsl/DataViz_Practice/).

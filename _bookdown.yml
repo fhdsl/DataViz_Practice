@@ -1,9 +1,14 @@
-book_filename: "Course_Name"
+book_filename: "Cancer Informatics Data Visualization in Practice"
 chapter_name: "Chapter "
-repo: https://github.com/jhudsl/OTTR_Template/
+repo: https://github.com/fhdsl/DataViz_Practice/
 rmd_files: ["index.Rmd",
             "01-intro.Rmd",
-            "02-chapter_of_course.Rmd",
+            "02_cancer_informatic_data_viz.Rmd",
+            "03_practice_overview.Rmd",
+            "03a_practice_general.Rmd",
+            "03b_practice_singlecell.Rmd",
+            "04_other_practice.Rmd",
+            "05_wrapping_up.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
