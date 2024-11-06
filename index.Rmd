@@ -28,7 +28,7 @@ Cancer Informatics Data Visualization in Practice is the second in a series of t
  - practicing building graphs while integrating best practices
  - pointing to resources for additional practice
 
- # Available Course Formats {-}
+# Available Course Formats {-}
 
  - The material for this course can be viewed without login requirement on this [Bookdown website](https://hutchdatascience.org/DataViz_Practice/). This format might be most appropriate for you if you rely on screen-reader technology.
  - Our courses are open source, you can find the [source material for this course on GitHub](https://github.com/fhdsl/DataViz_Practice/).
